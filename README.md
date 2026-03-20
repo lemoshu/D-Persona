@@ -60,23 +60,23 @@ python evaluate_dp.py --stage 2 --save_path ../models/[YOUR_MODEL_PATH] --test_n
 ### Citation
 If our D-Persona model is useful for your research, please consider citing:
 
-        @InProceedings{Wu_2024_CVPR,
-            author    = {Wu, Yicheng and Luo, Xiangde and Xu, Zhe and Guo, Xiaoqing and Ju, Lie and Ge, Zongyuan and Liao, Wenjun and Cai, Jianfei},
-            title     = {Diversified and Personalized Multi-rater Medical Image Segmentation},
-            booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-            month     = {June},
-            year      = {2024},
-            pages     = {11470-11479}
-        }
+    @InProceedings{Wu_2024_CVPR,
+         author    = {Wu, Yicheng and Luo, Xiangde and Xu, Zhe and Guo, Xiaoqing and Ju, Lie and Ge, Zongyuan and Liao, Wenjun and Cai, Jianfei},
+         title     = {Diversified and Personalized Multi-rater Medical Image Segmentation},
+         booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+         month     = {June},
+         year      = {2024},
+         pages     = {11470-11479}
+    }
 If you want to use the NPC-170 dataset, please consider citing:
 
-        @inproceedings{wu2024dataset,
-          title={Dataset, challenge, and evaluation for tumor segmentation variability},
-          author={Wu, Yicheng and Xie, Yutong and Luo, Xiangde and Wu, Qi and Cai, Jianfei},
-          booktitle={Proceedings of the 32nd ACM International Conference on Multimedia},
-          pages={11302--11303},
-          year={2024}
-        }
+    @inproceedings{wu2024dataset,
+         title={Dataset, challenge, and evaluation for tumor segmentation variability},
+         author={Wu, Yicheng and Xie, Yutong and Luo, Xiangde and Wu, Qi and Cai, Jianfei},
+         booktitle={Proceedings of the 32nd ACM International Conference on Multimedia},
+         pages={11302--11303},
+         year={2024}
+    }
 
 ### Acknowledgments:
 Our code is adapted from [Pionono](https://github.com/arneschmidt/pionono_segmentation), [MedicalMatting](https://github.com/wangsssky/MedicalMatting), and [Prob. U-Net](https://github.com/stefanknegt/Probabilistic-Unet-Pytorch). Thanks to these authors for their valuable works, and hope our model can promote the relevant research as well.
