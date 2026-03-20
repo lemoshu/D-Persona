@@ -52,9 +52,9 @@ python train_dp.py --stage 2 --val_num 100 --gpu 0
 6. Test the model;
 ```
 # e.g., first-stage performance on the LIDC-IDRI dataset
-Python evaluate_dp.py --stage 1 --save_path ../models/[YOUR_MODEL_PATH] --test_num 50
+python evaluate_dp.py --stage 1 --save_path ../models/[YOUR_MODEL_PATH] --test_num 50
 # e.g., second-stage performance
-Python evaluate_dp.py --stage 2 --save_path ../models/[YOUR_MODEL_PATH] --test_num 500
+python evaluate_dp.py --stage 2 --save_path ../models/[YOUR_MODEL_PATH] --test_num 500
 ```
 
 ### Citation
