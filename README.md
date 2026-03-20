@@ -45,7 +45,7 @@ python train_dp.py --stage 1 --val_num 10 --gpu 0
 cp ../models/[YOUR_MODEL_PATH]/DPersona1_LIDC_[IDX]_best.pth ../code/
 ```
 
-6. Second-stage training;
+5. Second-stage training;
 ```
 python train_dp.py --stage 2 --val_num 100 --gpu 0
 ```
